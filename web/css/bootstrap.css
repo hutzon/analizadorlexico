@@ -1,0 +1,116 @@
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+}
+body {
+    margin: 0;
+          background-image: url("../img/grama.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+          background-image: url("../img/grama.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index{
+     margin: 25px 10%;
+    border: 1px solid black;
+    width: 80%;
+    height: 640px;
+    border-radius: 20px 20px 0 0;
+   background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel{
+    margin: 25px 10%;
+    border: 1px solid black;
+    width: 80%;
+    height: 640px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+
+.index
+.form-group label{
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.index
+.form-group input{
+    font-size: 30px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+.panel textArea{
+    margin: 0 10%;
+    width: 80%;
+    height: 470px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.panel-heading{
+    margin-top: 0;
+    padding-top: 0;
+    border-radius: 20px 20px 0 0;
+    background-color: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.panel-btn{
+    margin-left: 92%;
+}
+
+.btn-default{
+    text-decoration: none;
+    width: 95px;
+    height: 35px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.btn-analizar{
+    margin-top: 20px;
+    margin-left: 20%;
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.panel-caratula{
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-container form{
+    display: grid;
+}
+
